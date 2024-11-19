@@ -32,8 +32,8 @@ export default function NavBar() {
   };
 
   return (
-    <div
-      className="flex flex-row justify-between items-center p-4 w-full"
+    <header
+      className="sticky  top-0 flex flex-row justify-between items-center p-4 w-full"
       onMouseEnter={() => {setHoverState(true);}}
       onMouseLeave={()=>{setHoverState(false)}}
     >
@@ -49,6 +49,6 @@ export default function NavBar() {
           <NavLink key={link.name} link={link} />
         ))}
       </div>
-    </div>
+    </header>
   );
 }

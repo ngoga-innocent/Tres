@@ -13,8 +13,8 @@ export default {
       },
       fontFamily: {
         body: ['Inter', 'sans-serif'],
-        heading: ['Lobster', 'sans-serif'],
-        subheading:['Delius','sans-serif']
+        heading: ['roboto', 'sans-serif'],
+        subheading:['roboto','sans-serif']
       },
       animation: {
         'bounce-custom': 'bounce 2s ease-in-out infinite',

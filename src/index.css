@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,7 +22,7 @@ body{
     to bottom,
      
     rgba(247, 247, 247, 0.1 ),
-    rgba(0, 0, 139, 0.7),rgba(255, 215, 0,0.4)
+    rgba(0, 0, 139, 0.7),rgba(255, 215, 0,0.7)
   ),
   url('./assets/tower.jpg');
   /* url('./assets/home_pic2.jpeg'); */
@@ -29,12 +30,24 @@ body{
 
     background-size: auto contain contain;
     background-clip: border-box;
-    background-position: fixed !important;
+    background-position: fixed;
+    background-attachment: fixed;
 }
 .heading1{
-  font-size: 30rem;
+  font-size: 20rem;
+  font-family: robotto;
   font-weight: bolder;
 }
 .subheading{
-  font-size: 2rem;
+  font-size: 1.7rem;
+}
+#ceo{
+  background-image: linear-gradient(
+    to bottom,
+     
+    rgba(247, 247, 247, 0.1 ),
+    rgba(0, 0, 139, 0.7),rgba(255, 215, 0,0.4)
+  ),url('./assets/tres.jpg');
+  background-position: fixed;
+  background-attachment: fixed;
 }
