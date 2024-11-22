@@ -19,7 +19,7 @@ export default function App() {
         <Service />
         <CeoSection />
         <Success />
-        <App />
+        
       </div>
     </div>
   );
